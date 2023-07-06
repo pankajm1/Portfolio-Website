@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(36, 36, 71);
+
+}
+
+header{
+    background-color: rgb(26, 26, 58);
+    height: 10vh;
+
+}
+
+.logoname{
+    font-size: large;
+}
+header nav{ 
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+header nav ul{
+    display: flex;
+    padding-top: 20px;
+
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin-right: 25px;
+    color: white;
+
+}
+
+
+header nav .logoname{
+    color: aliceblue;
+    padding-top: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+main .firstcontainer{
+    
+    width: 30%;
+    height: 40vh;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn{
+    background-color: rgb(46, 46, 78);
+    border-color: white ;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+main .firstcontainer span{
+    color: rgb(96, 96, 179);
+}
+
+main .secondcontainer{
+    width: 30%;
+    
+    padding-top: 5%;
+}
+
+.middle{
+    margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+ border-color: rgb(204, 204, 214);
+
+}
+
+section{
+    height: 70vh;
+}
+section .title{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.addlang{
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-color: rgb(204, 204, 214);
+}
+
+.verticalline1{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 80px;
+    position: absolute;
+    left: 20%;
+   
+    
+}
+.verticalline2{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 80px;
+    position: absolute;
+    left: 40%;
+   
+    
+}
+.verticalline3{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 80px;
+    position: absolute;
+    left:60%;
+   
+    
+}
+.verticalline4{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 80px;
+    position: absolute;
+    left: 80%;
+   
+    
+}
+
+.im{
+    width: 30px;
+    position: relative;
+    bottom:40px;
+    right: 15px;
+
+}
+
+.text-l{
+        margin-top: 50px;
+        color: white;
+        width: 130px;
+        font-size: larger;
+}
+.text-s{
+    color: rgb(184, 181, 181);
+    width: 130px;
+    font-size: small;
+
+}
+
+footer{
+    height: 30vh;
+    background-color: rgb(52, 52, 97);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 50px;
+
+}
+
+footer li{
+    list-style-type: square;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.d{
+    list-style-type: disc;
+}
+
+
+
